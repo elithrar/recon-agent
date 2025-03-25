@@ -16,16 +16,19 @@ Built using the [Agents SDK](https://developers.cloudflare.com/agents/) + deploy
 
 Further out: scan recent commits for potential security issues and/or fixes before advisories are published.
 
-## Run & Deploy it
+### Run & Deploy it
 
-Clone the repo, set the `GITHUB_TOKEN` secret, and install the dependencies with `npm install`. Then run:
+Clone the repo, set the `GITHUB_TOKEN` secret and set the repositories you want it to watch in `wrangler.json`. Then run:
 
 ```bash
+# Install dependencies
+npm install
 # Run it locally
 npm run dev
 # Deploy it to your own account
 npx wrangler@latest deploy
 ```
+
 ### License
 
 Apache-2.0 licensed. See the LICENSE file for details.
