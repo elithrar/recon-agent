@@ -18,7 +18,11 @@ Further out: scan recent commits for potential security issues and/or fixes befo
 
 ### Run & Deploy it
 
-Clone the repo, set the `GITHUB_TOKEN` secret and set the repositories you want it to watch in `wrangler.json`. Then run:
+The easy way:
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/elithrar/recon-agent)
+
+Manually: clone the repo, set the `GITHUB_TOKEN` secret and set the repositories you want it to watch in `wrangler.json`. Then run:
 
 ```bash
 # Install dependencies
