@@ -1,5 +1,7 @@
 # ReconAgent
 
+> 🚧 Work in progress
+
 An Agent that can check the state of GitHub repositories for security advisories and notify users when it sees something looks off.
 
 Built using the [Agents SDK](https://developers.cloudflare.com/agents/) + deploys to Cloudflare Workers.
